@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>photo effect</title>
+	<script src="js/caman.full.min.js"></script>
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/process.js"></script>
+	<script src="js/webcam.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div id="container">
+		<div id="nav">
+			<input type="file" id="fileInput">
+      <button id="webcam" >Camera</button>
+		</div>
+		<div id="item1">
+			<button id="basic">Basic</button>
+			<button id="effects">Effects</button>
+			<button id="other">Other</button>
+			<div id="adj">
+			</div>
+
+			<div id="oth" class="hidden">
+				<table id="othef">
+					<tr>
+						<td>crop</td>
+						<td class="hidden"></td>
+						<td class="hidden"></td>
+					</tr>
+				</table>
+			</div>
+			<div id="ba">
+				<table id="sli">
+					<tr>
+						<td class="bas" id="brightness" >brightness</td>
+						<td class="bas" id="contrast" >contrast</td>
+						<td class="bas" id="hue" >hue</td>
+					</tr>
+					<tr>
+						<td class="bas" id="saturation" >saturation</td>
+						<td class="bas" id="vibrance" >vibrance</td>
+						<td class="bas" id="exposure" >exposure</td>
+					</tr>
+					<tr>
+						<td class="bas" id="sepia" >sepia</td>
+						<td class="bas" id="noise" >noise</td>
+						<td class="bas" id="sharpen" >sharpen</td>
+					</tr>
+					<tr>
+						<td class="bas" id="stackBlur" >stackblur</td>
+						<td class="bas" id="clip" >clip</td>
+						<td class="hidden"></td>
+					</tr>
+				</table>
+			</div>
+			<div id="ef" class="hidden">
+				<table id="eftable">
+					<tr>
+						<td class="fil" id="vintage">vintage</td>
+						<td class="fil" id="lomo">lomo</td>
+						<td class="fil" id="clarity">clarity</td>
+					</tr>
+					<tr>
+						<td class="fil" id="sinCity">sinCity</td>
+						<td class="fil" id="sunrise">sunrise</td>
+						<td class="fil" id="crossProcess">crossProcess</td>
+					</tr>
+					<tr>
+						<td class="fil" id="love">love</td>
+						<td class="fil" id="grungy">grungy</td>
+						<td class="fil" id="jarques">jarques</td>
+					</tr>
+					<tr>
+						<td class="fil" id="pinhole">pinhole</td>
+						<td class="fil" id="oldBoot">oldBoot</td>
+						<td class="fil" id="glowingSun">glowingSun</td>
+					</tr>
+					<tr>
+						<td class="fil" id="hazyDays">hazyDays</td>
+						<td class="fil" id="herMajesty">herMajesty</td>
+						<td class="fil" id="nostalgia">nostalgia</td>
+					</tr>
+					<tr>
+						<td class="fil" id="hemingway">hemingway</td>
+						<td class="fil" id="concentrate">concentrate</td>
+						<td class="fil" id="revert">reset</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		<div id="item2" align="center">
+			<div id="item4">
+				<canvas id="photo"></canvas>
+			</div>
+		</div>
+
+		<div id="item3">
+		</div>
+	</div>
+</body>
+</html>

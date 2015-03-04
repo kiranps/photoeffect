@@ -1,0 +1,90 @@
+html,body {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav{
+	background-color: purple;
+	height: 40px;
+	position: fixed;
+	display: block;
+    top:0;
+    left:0;
+    right: 0;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	padding-top: 40px;
+	position: fixed;
+  	
+}
+
+#item1 {
+	float: left;
+    top: 40px;
+    bottom: 0;
+    left 0;
+    width: 340px;
+	padding: 0px;
+  	margin: 0px;
+    display: block;
+    position: fixed;
+	background-color:red;
+}
+
+#item4 {
+	background-color: grey;
+	top: 40px;
+	right: 0;
+	bottom: 0;
+	left: 340px;
+	display: block;
+	position: fixed;
+	margin: 10px;
+}
+
+#item2 {
+    top: 40px;
+    left: 340px;
+    bottom: 0px;
+    right: 0px;
+	height: 100%;
+	padding: 0px;
+  	margin: 0px;
+	background-color:yellow;
+    display: block;
+    position: fixed;
+}
+
+#item3 {
+	float: left;
+	top: 40px;
+    bottom: 0px;
+	padding: 0px;
+  	margin: 0px;
+	background-color:blue;
+}
+
+td {
+	width: 15%;
+}
+
+.hidden {
+	display: none;
+}
+
+#ef td, #sli td, #othef td {
+	height: 90px;
+	width: 90px;
+	background-color: green;
+}
+
+#eftable, #sli, #othef {
+	background-color: blue;
+	margin: auto;
+	text-align: center;
+}
